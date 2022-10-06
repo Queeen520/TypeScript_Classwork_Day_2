@@ -8,8 +8,8 @@
 </head>
 <body>
 <header>
-<h2>Want a new vehicle?</h2>
-<h2>Fill out the following form and we calculate the best price!</h2>
+<h2>Want a new vehicle but?</h2>
+<h2>Fill out the following form and we find what fits your needs</h2>
 </header>
    
 <form>
@@ -17,49 +17,35 @@
        
     <input class="radio"
            type="radio"
-           value="yes"/>
+           id="yes"/>
     <label for="yes">YES</label>
 
     <input class="radio"
            type="radio" 
-           value="no"/>
+           id="no"/>
     <label for="no">NO</label>
 
-    <p>I need the vehicle for:</p>
-   
-    <input value = "work"
-            type = "checkbox"
-            class = "checkbox">
-    <label for = "work">Work</label>         
-    <br>
-    <input value = "private"
-            type = "checkbox"
-            class = "checkbox">
-    <label for = "private">Private Usage</label>
-    <br>
-    <input value = "other"
-            type = "checkbox"
-            class = "checkbox">
-    <label for = "other">Other Usage</label>
-    <br>
     <p>How much money do you want to spend?</p>
     
-    <input value = "more"
+    <input id = "more"
             type = "checkbox"
             class = "checkbox">
     <label for = "more">More than 4000 EUR</label>
     <br>
-    <input value = "less"
+    <input id = "less"
             type = "checkbox"
             class = "checkbox">
     <label for = "less">Less than 4000 EUR</label>
     <br>
-    <input value = "less1"
+    <input id = "notMuch"
             type = "checkbox"
             class = "checkbox">
-    <label for = "less1">Less than 500 EUR</label>
+    <label for = "notMuch">Less than 500 EUR</label>
     
 </form>
+<br>
+
+<button>Get Best Vehicle & Best Price</button>
 
 <script src="script.js"></script>
 </body>
