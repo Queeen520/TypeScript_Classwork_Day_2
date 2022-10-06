@@ -56,3 +56,16 @@ class Trucks extends Vehicle {
 
 let input2 = new Trucks("Iveco S-Way", 154, 2008, 65000, 5000, 2, "Diesel");
 console.table(input2);
+
+class Bicycle extends Vehicle {
+    numberOfSeats: number;
+    fuelType: string;
+    drivingLicenceNedded: false;
+
+    constructor(name: string, horsepower: number, yearOfProduction: number, price: number, numberOfSeats: number, fuelType: string) {
+        super(name, horsepower, yearOfProduction, price);
+        this.numberOfSeats = numberOfSeats;
+        this.fuelType = fuelType;
+        this.drivingLicenceNedded = false;
+    }
+}
