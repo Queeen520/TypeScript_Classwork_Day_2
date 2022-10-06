@@ -38,3 +38,25 @@ class Bicycle extends Vehicle {
         this.drivingLicenceNedded = false;
     }
 }
+
+
+
+// checkbox is checked or not
+// checked property of the checkbox element if checked = true else false
+
+const RadioCheckBoxYes = document.querySelector('#yes');
+console.log(checkBoxYes.checked); // returns true if checked else returns false
+
+const RadioCheckBoxNo = document.querySelector('#no');
+console.log(checkBoxNo.checked); // returns true if checked else returns false
+
+const checkBoxMore = document.querySelector('#more');
+console.log(checkBoxMore.checked); // returns true if checked else returns false
+
+const checkBoxLess = document.querySelector('#less');
+console.log(checkBoxLess.checkded); // returns true if checked else returns false
+
+const checkBoxNotMuch = document.querySelector('#notMuch');
+console.log(checkBoxNotMuch.checked); // returns true if checked else returns false
+
+
