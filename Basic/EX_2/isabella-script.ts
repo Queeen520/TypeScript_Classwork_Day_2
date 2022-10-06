@@ -6,8 +6,8 @@ every month, and I work in (jobLocation)” */
 let person: {
     fname : string,
     lname: string,
-    age: number;
-    jobTitel: string;
+    age: number,
+    jobTitel: string,
     printInfo: Function
   } = {
     fname: "John",
@@ -18,10 +18,11 @@ let person: {
         return `My name is ${this.fname} ${this.lname} and I am ${this.age} years old, and I am a ${this.jobTitel}`
     }
   }
+
   document.write(person.printInfo());
 
 
-  class Employee extends person { 
+  /* class Employee extends person { 
         jobLocation: string;
         salary: number;
         
@@ -32,4 +33,4 @@ let person: {
             this.jobLocation = jobLocation;
             this.salary = salary;
         }
-    }
+    } */

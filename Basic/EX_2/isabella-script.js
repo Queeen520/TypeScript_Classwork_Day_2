@@ -3,7 +3,7 @@
 like salary, jobLocation and a function that will call the function that
 is inside the Person class and add “and I get (salary)
 every month, and I work in (jobLocation)” */
-let person = {
+ person = {
     fname: "John",
     lname: "Doe",
     age: 33,
@@ -13,10 +13,15 @@ let person = {
     }
 };
 document.write(person.printInfo());
-class Employee extends person {
-    constructor(fname, lname, age, jobTitel, jobLocation, salary) {
-        super(fname, lname, age, jobTitel);
-        this.jobLocation = jobLocation;
-        this.salary = salary;
-    }
-}
+/* class Employee extends person {
+      jobLocation: string;
+      salary: number;
+      
+
+      constructor(fname:string, lname: string, age: number, jobTitel: string, jobLocation: string, salary: number) {
+          super(fname, lname, age, jobTitel);
+          
+          this.jobLocation = jobLocation;
+          this.salary = salary;
+      }
+  } */ 
